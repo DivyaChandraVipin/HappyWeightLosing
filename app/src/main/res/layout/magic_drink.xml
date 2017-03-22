@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/green_back">
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    >
+    <android.support.v7.widget.Toolbar
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorGreen"
+        android:title="Magic Drink"
+
+        android:foregroundTint="@color/colorWhite"
+        android:subtitleTextColor="@color/colorWhite"
+        android:titleTextAppearance="@anim/up_bottom"
+        android:id="@+id/toolbar"></android.support.v7.widget.Toolbar>
+<ImageView
+    android:layout_width="match_parent"
+    android:layout_height="250dp"
+    android:src="@drawable/bellyfat"
+    android:layout_marginTop="0dp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtViewContent"
+        android:layout_marginLeft="10dp"
+        android:textColor="@color/colorBlack"
+        android:text="\nIngredients:\n
+1 cucumber\n
+a bunch of parsley or cilantro\n
+1 lemon\n
+1 tbsp. grated ginger\n
+1 tbsp. aloe vera juice\n
+1/2 glass water\n
+\nInstructions:
+Juice the listed ingredients and consume the drink before going to bed.\n
+        Just a glass of this drink before going to bed helps you reduce body fat especially belly fat. This drink is easy to prepare and has proved efficient in bringing great results in short period as long as it is consumed regularly.
+        \nBelly fat can be sometimes be too stubborn to deal with, so instead of feeling hopeless, here is a simple yet powerful drink to help you accomplish your weight loss mission and during the process to eliminate excess belly fat that has been bothering you for a while.
+When you go to bed and fall asleep, the metabolism works slowly than when you are awake. That is the point of this drink, to help you boost metabolism and burn calories while you are sleeping.
+Choose cucumbers as part of your menu if you want to reduce stomach fat. They are refreshing, high in water content and fibre and low in calories. One full cucumber contains just 45 calories, making it sexy stomach food.
+\nBoth parsley and cilantro are extremely low in calories,  full of  antioxidants and offer several vital vitamins and minerals that help to ease water retention without causing the bloating and tummy discomfort.
+Lemon will flush out all toxins accumulated in your body and this will contribute to much faster melting of fat as fat metabolism will be increased once the impurities are out of the system.
+Ginger will fire up metabolism, prevent constipation and melt unwanted belly fat. If you have flat tummy on your mind, make sure you regularly include ginger in your meals. All compounds in ginger work in synergy to prevent overeating and blast belly fat fast.
+Aloe vera juice is considered really efficient weight loss remedy as it contains natural anti-oxidants that help to delay the growth of free radicals in the body and even to reduce inflammatory processes going on in the body. It stimulates the metabolic rate which in turn helps for the consumption of more energy. This process stabilizes and reduces the body mass index (BMI)
+Combine these fresh healthy ingredients, prepare this refreshing drink and get rid of extra belly fat once and for all."/>
+
+</LinearLayout>
+    </ScrollView>
